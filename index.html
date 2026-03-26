@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jason Del Cid | Resume</title>
 
-<!-- Google Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
@@ -14,87 +14,109 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- // Intro -->
     <header>
-        <img src="your-picture.jpg" alt="Jason Del Cid">
-        <h1>Jason Del Cid</h1>
-        <h2>Computer Science Student | Aspiring Software Engineer</h2>
-        <p>
-            Computer Science major with hands-on experience developing AI-driven systems
-            and coordinating full-stack application projects. Strong foundation in system
-            integration, real-time platforms, and structured technical execution, seeking
-            to contribute to reliable, large-scale digital operations.
-        </p>
+        <div class="content-wrap">
+            <img class="profile-img column-narrow" src="images/your-picture.jpg" alt="Jason Del Cid">
+
+            <div class="column-wide">
+                <h1>Jason Del Cid</h1>
+                <h2>Computer Science Student | Aspiring Software Engineer</h2>
+                <p>
+                    Computer Science major with hands-on experience developing AI-driven systems
+                    and coordinating full-stack application projects. Strong foundation in system
+                    integration, real-time platforms, and structured technical execution.
+                </p>
+            </div>
+        </div>
     </header>
     
-    <main> 
+    <main>
         <section>
-            <h2>Work Experience</h2>
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
 
-            <h3>Chipotle — Crew Member</h3>
-            <p>Los Angeles, CA</p>
-            <p>December 2024 - Current</p>
-            <p>
-                Delivered high-volume customer service while maintaining accuracy and
-                operational efficiency during peak hours. Collaborated with team members
-                to ensure smooth service flow and adherence to safety standards.
-            </p>
+                <div class="job-item">
+                    <div class="column-narrow">
+                        <h3>Chipotle — Crew Member</h3>
+                        <p>Los Angeles, CA</p>
+                        <p>December 2024 - Current</p>
+                    </div>
 
-            <h3>Little Caesars — Assistant Manager</h3>
-            <p>Los Angeles, CA</p>
-            <p>May 2021 - January 2025</p>
-            <p>
-                Supervised daily operations and managed team scheduling in a fast-paced
-                environment to ensure service efficiency. Trained and coordinated staff
-                while overseeing inventory control and customer issue resolution.
-            </p>
+                    <div class="column-wide">
+                        <p>
+                            Delivered high-volume customer service while maintaining accuracy and
+                            operational efficiency during peak hours. Collaborated with team members
+                            to ensure smooth service flow and adherence to safety standards.
+                        </p>
+                    </div>
+                </div>
 
-            <h3>Kadima Security Services — Intern</h3>
-            <p>Los Angeles, CA</p>
-            <p>August 2019 - December 2019</p>
-            <p>
-                Supported security operations and coordinated documentation processes
-                to ensure accurate reporting and compliance. Assisted in organizing and
-                tracking operational data, improving workflow consistency across internal systems.
-            </p>
+                <div class="job-item">
+                    <div class="column-narrow">
+                        <h3>Little Caesars — Assistant Manager</h3>
+                        <p>Los Angeles, CA</p>
+                        <p>May 2021 - January 2025</p>
+                    </div>
+
+                    <div class="column-wide">
+                        <p>
+                            Supervised daily operations and managed team scheduling in a fast-paced
+                            environment to ensure service efficiency. Trained and coordinated staff
+                            while overseeing inventory control and customer issue resolution.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="job-item">
+                    <div class="column-narrow">
+                        <h3>Kadima Security Services — Intern</h3>
+                        <p>Los Angeles, CA</p>
+                        <p>August 2019 - December 2019</p>
+                    </div>
+
+                    <div class="column-wide">
+                        <p>
+                            Supported security operations and coordinated documentation processes
+                            to ensure accurate reporting and compliance. Assisted in organizing and
+                            tracking operational data, improving workflow consistency across internal systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>Education</h2>
+            <div class="content-wrap">
+                <h2>Education</h2>
 
-            <h3>California State University, Northridge</h3>
-            <p>Bachelor of Science in Computer Science</p>
-            <p>Expected Graduation: May 2026</p>
-            <p>
-                Relevant coursework includes Data Structures, Software Engineering,
-                Operating Systems, Databases, and Computer Networks.
-            </p>
+                <h3>California State University, Northridge</h3>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>Expected Graduation: May 2026</p>
+                <p>
+                    Relevant coursework includes Data Structures, Software Engineering,
+                    Operating Systems, Databases, and Computer Networks.
+                </p>
 
-            <h3>Technical Skills</h3>
-            <p>
-                <strong>Languages:</strong> Python, Java, JavaScript
-            </p>
-            <p>
-                <strong>Frameworks & Tools:</strong> FastAPI, React, Node.js, Express,
-                MongoDB, FAISS, Socket.IO
-            </p>
-            <p>
-                <strong>Technologies:</strong> REST APIs, JWT Authentication, Git, Linux,
-                SQL, Vector Databases
-            </p>
+                <h3>Technical Skills</h3>
+                <p><strong>Languages:</strong> Python, Java, JavaScript</p>
+                <p><strong>Frameworks & Tools:</strong> FastAPI, React, Node.js, Express, MongoDB, FAISS, Socket.IO</p>
+                <p><strong>Technologies:</strong> REST APIs, JWT Authentication, Git, Linux, SQL, Vector Databases</p>
+            </div>
         </section>
     </main>
     
     <footer>
-        <h2>Let's Keep in Touch!</h2>
-        
-        <div>
-            <a href="mailto:jason.del-cid-diaz.550@my.csun.edu">jason.del-cid-diaz.550@my.csun.edu</a>
-            <a href="https://www.linkedin.com/in/jason-del-cid-9b375a339" target="_blank">LinkedIn</a>
-        </div>
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
 
-        <p>Los Angeles, CA | (747) 276-2693</p>
-        <p>Copyright 2026 by Jason Del Cid</p>
+            <div class="contact-info">
+                <a href="mailto:jason.del-cid-diaz.550@my.csun.edu">jason.del-cid-diaz.550@my.csun.edu</a>
+                <a href="https://www.linkedin.com/in/jason-del-cid-9b375a339" target="_blank">LinkedIn</a>
+            </div>
+
+            <p>Los Angeles, CA | (747) 276-2693</p>
+            <p>Copyright 2026 by Jason Del Cid</p>
+        </div>
     </footer>
 </body>
 </html>
